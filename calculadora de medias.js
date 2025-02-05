@@ -19,4 +19,4 @@ console.log(calculaMedia(Ione));
 console.log(calculaMedia(Rafael));
 console.log(calculaMedia(Renan)); 
     
-//demorei quase 12 minutos para fazer isso porque a "let soma" tava fora da função e tava dando as medias erradas 
+//demorei quase 12 minutos para fazer isso porque a "let soma" tava fora da função e tava dando as medias erradas
