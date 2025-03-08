@@ -1,8 +1,8 @@
 # Projetos-testes
-Projetos para colocar meu aprendizado em pratica
+Projetos para colocar meu aprendizado em prática
 
-Por enquanto eu fiz: Uma calculadora de media;
-Um sistema de reservas de acentos;
-E o mais complexo de todos até agora, uma lista de tarefas onde eu coloco as tarefas pelo terminal de entrada. O proximo passo é fazer uma opção de "check" nas tarefas ja feitas;
+Por enquanto, eu fiz: uma calculadora de média;
+um sistema de reservas de assentos, atualmente com terminal de entrada. Futuramente, pretendo implementar o código em uma API;
+e o mais complexo de todos até agora, uma lista de tarefas, onde eu coloco as tarefas pelo terminal de entrada. O próximo passo é fazer uma opção de "check" nas tarefas já feitas.
 
-Falta dar uma polida em todos os 3 projetos e colocar o terminal de entrada nos dois primeiros, mas estou evoluindo. 
+Falta dar uma polida em todos os três projetos, mas estou evoluindo.
