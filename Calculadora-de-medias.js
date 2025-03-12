@@ -1,22 +1,21 @@
 //Lista de alunos e suas notas
-const Ione = [10, 10, 9, 10];
-const Rafael = [9, 7, 8, 10];
-const Renan = [7, 5, 4, 6];
+const alunos = {
+  Ione: [10, 10, 9, 10],
+  Rafael: [9, 7, 8, 10],
+  Renan: [7, 5, 4, 6],
+};
+const medias = {};
 
 //Calculo das notas
-function calculaMedia(aluno) {
-    let soma = 0;
-    for (let i = 0; i < aluno.length; i++)
-        soma += aluno[i];
-    let media = soma / aluno.length;
-    if (media >= 6) { console.log("Aprovado") } else { console.log("Reprovado") }
-    return media;
-
+for (let nome in alunos) {
+  medias[nome] =
+    alunos[nome].reduce((acc, num) => acc + num, 0) / alunos[nome].length;
+  if (medias[nome] >= 6) {
+    console.log(`${nome}: Aprovado`);
+  } else {
+    console.log(`${nome}: Reprovado`);
+  }
 }
 
-//Resultado
-console.log(calculaMedia(Ione));
-console.log(calculaMedia(Rafael));
-console.log(calculaMedia(Renan));
-
-//demorei quase 12 minutos para fazer isso porque a "let soma" tava fora da função e tava dando as medias erradas
+// Estrutura nova, mais "complexa"(com muitas aspas). Mas agora fica mais fácil implementar um terminal de entrada,
+// que inclusive será o próximo passo do código.
